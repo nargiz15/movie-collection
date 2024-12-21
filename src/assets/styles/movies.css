@@ -338,3 +338,102 @@
         height: 100%;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    .movie-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      padding: 0.5rem;
+    }
+  
+    .movie-card {
+      max-width: 100%;
+    }
+  
+    .movie-image {
+      height: auto;
+      max-height: 200px;
+    }
+  
+    .button-container {
+      flex-direction: column;
+      padding: 8px;
+    }
+  
+    .trailer-button,
+    .details-button {
+      width: 100%;
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .page-title {
+      font-size: 24px;
+      padding: 0 10px;
+    }
+  }
+  
+
+  @media screen and (max-width: 391px) {
+    .modal-content {
+      width: 95%;
+      max-height: 85vh;
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    .modal-title {
+      font-size: 18px;
+    }
+  
+    .modal-description {
+      font-size: 14px;
+    }
+  
+    .modal-image {
+      height: auto;
+      max-height: 200px;
+    }
+  
+    .comments-section {
+      
+      padding: 8px;
+    }
+  
+    .comment-card {
+      padding: 8px;
+      margin-bottom: 8px;
+    }
+  
+    .comment-text {
+      font-size: 13px;
+    }
+  
+    .close-button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+
+
+    .video-container {
+      margin-bottom: 10px;
+    }
+    .button-container{
+        flex-direction: column;
+    }
+  .close-button{
+    margin: 20px 0px;
+  }
+  .comment-form{
+    flex-direction: column;
+  }
+  .modal-content,
+  .comments-section {
+    scrollbar-width: thin;
+  }
+  .movie-rating {
+    padding: 2px 6px;
+    font-size: 12px;
+  }
+}
