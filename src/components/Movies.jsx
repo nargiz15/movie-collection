@@ -169,7 +169,7 @@ const movies = [
       rating: 8.5,
       year: 2006,
       image: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p162564_p_v8_ag.jpg",
-      trailer: "https://www.youtube.com/watch?v=auYiGrO_mzE",
+      trailer: "https://www.youtube.com/watch?v=iojhqm0JTW4",
       description: "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in Boston.",
       comments: [
         { id: 1, user: "Rəna", text: "Martin Scorsese çox gözəl işləmişdir.", date: "2024-03-17", likes: 10 }
